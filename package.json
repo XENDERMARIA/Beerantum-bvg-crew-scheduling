@@ -1,0 +1,19 @@
+{
+  "name": "bvg-crew-scheduling",
+  "version": "1.0.0",
+  "description": "BVG Crew Scheduling Platform - Berlin Quantum Hackathon 2026",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["bvg", "scheduling", "quantum", "react", "express", "hackathon"],
+  "author": "BVG Hackathon Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
