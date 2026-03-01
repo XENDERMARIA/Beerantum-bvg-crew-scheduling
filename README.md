@@ -1,6 +1,6 @@
 # 🚌 BVG Crew Scheduling Platform
 
-**Full-Stack Dynamic Web Application for Berlin Quantum Hackathon 2026**
+**Full-Stack Dynamic Web Application**
 
 A complete scheduling system with dual interfaces (Admin + Employee) featuring real-time preference management, schedule optimization, and quantum hardware integration placeholder.
 
@@ -293,7 +293,7 @@ Choose any driver:
 - Thomas Fischer (DRV-004)
 - Lisa Wagner (DRV-005)
 
-**Password for all**: `driver`
+**Password for all**: `1234`
 
 ---
 
@@ -511,27 +511,3 @@ app.use(cors({
 MIT License - Feel free to use and modify
 
 ---
-
-## 🏆 Built For
-
-**Berlin Quantum Hackathon 2026**  
-Challenge: BVG Crew Scheduling Optimization  
-Platform: Kipu Quantum Hub
-
----
-
-## 🤝 Contributing
-
-This is a hackathon project. To expand:
-
-1. Add more drivers (currently 5 → 150)
-2. Import full rotation segments (10 → 58,676)
-3. Connect to PostgreSQL
-4. Integrate real Kipu Quantum API
-5. Add JWT authentication
-6. Add email notifications
-7. Deploy to production
-
----
-
-**Questions?** Check the inline comments in the code — every file is documented!
