@@ -39,7 +39,7 @@ export default function LoginPage() {
                     <div className="mb-4">
                         <p className="form-label" style={{ textAlign: "left", marginBottom: "12px" }}>Select your profile to demo:</p>
                         <div className="driver-select">
-                            {drivers.slice(0, 4).map(d => (
+                            {drivers.slice(0, 5).map(d => (
                                 <div key={d.id} className={`driver-option${selectedDriver === d.id ? " sel" : ""}`} style={selectedDriver === d.id ? { borderColor: "var(--yellow)", background: "rgba(255,213,0,0.06)" } : {}} onClick={() => { setSelectedDriver(d.id); setError(""); }}>
                                     <div className="d-avatar">{d.name.split(" ").map(n => n[0]).join("")}</div>
                                     <div>
